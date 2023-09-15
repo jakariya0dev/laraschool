@@ -1,0 +1,75 @@
+<div class="navbar-content-wrapper mb-2">
+
+    <nav class="navbar navbar-expand-lg justify-content-end p-0">
+        <span style="margin-right: 68%;font-weight: 600;color: white;" class="d-block d-sm-none">Menu</span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" style="background: none; vertical-align: center;"> <i class="fa fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav flex-wrap my-lg-0">
+
+                <li class="nav-item">
+                    <a title="প্রধান পাতা" class="nav-link text-white" href="mkm.html">প্রধান পাতা</a>
+                </li>
+                <li class="nav-item">
+                    <a title="শিক্ষক" class="nav-link text-white" href="https://mkm.edu.bd/home/teachers/mkm">শিক্ষক</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a title="অনলাইন ভর্তি" class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        অনলাইন ভর্তি
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a title="অনলাইন ভর্তি 1" class="dropdown-item text-white" href="https://mkm.edu.bd/home/admission/mkm">অনলাইন ভর্তি 1</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a title="গ্যালারী" class="nav-link text-white" href="https://mkm.edu.bd/home/gallery/mkm">গ্যালারী</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a title="পরিক্ষা সংক্রান্ত" class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        পরিক্ষা সংক্রান্ত
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a title="Certificate" class="dropdown-item text-white" href="https://mkm.edu.bd/home/certificates">Certificate</a></li>
+                        <li><a title="admit card" class="dropdown-item text-white" href="https://mkm.edu.bd/home/admit_card/mkm">admit card</a></li>
+                        <li><a title="Assesment Result" class="dropdown-item text-white" href="https://mkm.edu.bd/home/assesment_result/mkm">Assesment Result</a></li>
+                        <li><a title="Exam Result" class="dropdown-item text-white" href="https://mkm.edu.bd/home/exam_results/mkm">Exam Result</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a title="পাঠ্যপুস্তক" class="nav-link text-white" href="https://mkm.edu.bd/home/page/Patthopostok/mkm">পাঠ্যপুস্তক</a>
+                </li>
+
+                <li class="nav-item">
+                    <a title="প্রাতিষ্ঠানিক তথ্য" class="nav-link text-white" href="https://mkm.edu.bd/home/document/mkm">প্রাতিষ্ঠানিক তথ্য</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a title="শিক্ষার্থীদের তথ্য" class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        শিক্ষার্থীদের তথ্য
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://mkm.edu.bd/home/studentView/22/mkm" title="Kamil 2nd Year" class="dropdown-item text-white" href="#">Kamil 2nd Year</a></li>
+                        <li><a href="https://mkm.edu.bd/home/studentView/23/mkm" title="Ramadan special class" class="dropdown-item text-white" href="#">Ramadan special class</a></li>
+                        <li><a href="https://mkm.edu.bd/home/studentView/26/mkm" title="Dakhil  Special Class" class="dropdown-item text-white" href="#">Dakhil  Special Class</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a title="Attendence" class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        ডিজিটাল হাজিরা
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a title="Student Attendence" class="dropdown-item text-white" href="https://mkm.edu.bd/home/student_attendence">শিক্ষার্থী হাজিরা</a></li>
+                        <li><a title="Employee" class="dropdown-item text-white" href="https://mkm.edu.bd/home/employee_attendence">শিক্ষক-কর্মচারী হাজিরা</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a title="নোটিশ" class="nav-link text-white" href="{{ route('pages.notice') }}">নোটিশ</a>
+                </li>
+
+                <li class="nav-item">
+                    <a title="লগইন" class="nav-link text-white" href="https://mkm.edu.bd/authentication/index/mkm">লগইন</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
