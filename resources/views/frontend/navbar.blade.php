@@ -9,10 +9,10 @@
             <ul class="navbar-nav flex-wrap my-lg-0">
 
                 <li class="nav-item">
-                    <a title="প্রধান পাতা" class="nav-link text-white" href="mkm.html">প্রধান পাতা</a>
+                    <a title="প্রধান পাতা" class="nav-link text-white" href="{{ route('home') }}">প্রধান পাতা</a>
                 </li>
                 <li class="nav-item">
-                    <a title="শিক্ষক" class="nav-link text-white" href="https://mkm.edu.bd/home/teachers/mkm">শিক্ষক</a>
+                    <a title="শিক্ষক" class="nav-link text-white" href="{{ route('teachers') }}">শিক্ষক</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a title="অনলাইন ভর্তি" class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -23,43 +23,42 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a title="গ্যালারী" class="nav-link text-white" href="https://mkm.edu.bd/home/gallery/mkm">গ্যালারী</a>
+                    <a title="গ্যালারী" class="nav-link text-white" href="{{ route('pages.gallery') }}">গ্যালারী</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a title="পরিক্ষা সংক্রান্ত" class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         পরিক্ষা সংক্রান্ত
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a title="Certificate" class="dropdown-item text-white" href="https://mkm.edu.bd/home/certificates">Certificate</a></li>
-                        <li><a title="admit card" class="dropdown-item text-white" href="https://mkm.edu.bd/home/admit_card/mkm">admit card</a></li>
-                        <li><a title="Assesment Result" class="dropdown-item text-white" href="https://mkm.edu.bd/home/assesment_result/mkm">Assesment Result</a></li>
-                        <li><a title="Exam Result" class="dropdown-item text-white" href="https://mkm.edu.bd/home/exam_results/mkm">Exam Result</a></li>
+                        <li><a title="Certificate" class="dropdown-item text-white" href="">Certificate</a></li>
+                        <li><a title="admit card" class="dropdown-item text-white" href="#">Admit card</a></li>
+                        <li><a title="Assesment Result" class="dropdown-item text-white" href="#">Assessment Result</a></li>
+                        <li><a title="Exam Result" class="dropdown-item text-white" href="#">Exam Result</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a title="পাঠ্যপুস্তক" class="nav-link text-white" href="https://mkm.edu.bd/home/page/Patthopostok/mkm">পাঠ্যপুস্তক</a>
+                    <a title="পাঠ্যপুস্তক" class="nav-link text-white" href="#">শিক্ষার্থীদের তথ্য</a>
                 </li>
 
                 <li class="nav-item">
-                    <a title="প্রাতিষ্ঠানিক তথ্য" class="nav-link text-white" href="https://mkm.edu.bd/home/document/mkm">প্রাতিষ্ঠানিক তথ্য</a>
+                    <a title="প্রাতিষ্ঠানিক তথ্য" class="nav-link text-white" href="{{ route('pages.academic.info') }}">প্রাতিষ্ঠানিক তথ্য</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a title="শিক্ষার্থীদের তথ্য" class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        শিক্ষার্থীদের তথ্য
+                         পাঠ্যপুস্তক
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a href="https://mkm.edu.bd/home/studentView/22/mkm" title="Kamil 2nd Year" class="dropdown-item text-white" href="#">Kamil 2nd Year</a></li>
-                        <li><a href="https://mkm.edu.bd/home/studentView/23/mkm" title="Ramadan special class" class="dropdown-item text-white" href="#">Ramadan special class</a></li>
-                        <li><a href="https://mkm.edu.bd/home/studentView/26/mkm" title="Dakhil  Special Class" class="dropdown-item text-white" href="#">Dakhil  Special Class</a></li>
+                        <li><a href="http://nctb.portal.gov.bd/site/page/c6816afa-4e9f-4bde-8dd0-6d44074baf7f" class="dropdown-item text-white" href="#">ইবতেদায়ী স্তর</a></li>
+                        <li><a href="http://nctb.portal.gov.bd/site/page/221b05b6-76d6-4e79-9749-49a21823b1d8" class="dropdown-item text-white" href="#">দাখিল স্তর</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
-                    <a title="Attendence" class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a title="Attendance" class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         ডিজিটাল হাজিরা
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a title="Student Attendence" class="dropdown-item text-white" href="https://mkm.edu.bd/home/student_attendence">শিক্ষার্থী হাজিরা</a></li>
-                        <li><a title="Employee" class="dropdown-item text-white" href="https://mkm.edu.bd/home/employee_attendence">শিক্ষক-কর্মচারী হাজিরা</a></li>
+                        <li><a title="Student Attendance" class="dropdown-item text-white" href="#">শিক্ষার্থী হাজিরা</a></li>
+                        <li><a title="Employee" class="dropdown-item text-white" href="#">শিক্ষক-কর্মচারী হাজিরা</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
@@ -67,7 +66,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a title="লগইন" class="nav-link text-white" href="https://mkm.edu.bd/authentication/index/mkm">লগইন</a>
+                    <a title="লগইন" class="nav-link text-white" href="">লগইন</a>
                 </li>
             </ul>
         </div>

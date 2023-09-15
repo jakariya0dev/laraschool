@@ -16,7 +16,9 @@ class DatabaseSeeder extends Seeder
             about_seeder::class,
             notice_seeder::class,
             speech_seeder::class,
-            banner_seeder::class
+            banner_seeder::class,
+            photo_gallery_seeder::class,
+            AcademicInfoSeeder::class
         ]);
     }
 }

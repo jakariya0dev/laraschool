@@ -107,6 +107,24 @@
                             <p>বাণী</p>
                         </a>
                     </li>
+                    <li class="nav-item">
+                        <a href="{{ route('teacher.all') }}" class="nav-link">
+                            <i class="nav-icon far fa-circle text-warning"></i>
+                            <p>শিক্ষক তালিকা</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="{{ route('gallery-dashboard') }}" class="nav-link">
+                            <i class="nav-icon far fa-circle text-warning"></i>
+                            <p>ফটো গ্যালারী</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="{{ url('/academic-dashboard') }}" class="nav-link">
+                            <i class="nav-icon far fa-circle text-warning"></i>
+                            <p>একাডেমিক তথ্য</p>
+                        </a>
+                    </li>
                 </ul>
             </nav>
             <!-- /.sidebar-menu -->
